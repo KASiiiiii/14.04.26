@@ -10,17 +10,20 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-family: "Raleway", sans-serif;
 }
 
 .header-logo {
-  font-family: Raleway;
+  font-family: Roboto;
   color: var(--logo-color);
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
   letter-spacing: 0.78px;
   text-decoration: none;
+}
+
+.logo-accent {
+  color: var(--secondary-color);
 }
 
 .header-link-active {
@@ -30,7 +33,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.28px;
   text-decoration: none;
-  color: #212121;
+  color: var(--title-color);
   font-family: Roboto;
 }
 
@@ -41,7 +44,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.28px;
   text-decoration: none;
-  color: #212121;
+  color: var(--title-color);
   font-family: Roboto;
 }
 
@@ -61,18 +64,24 @@ body {
   text-decoration: none;
 }
 
+.header-item {
+  color: var(--title-color);
+  text-decoration: none;
+}
+
+.header-item:hover {
+  color: var(--secondary-color);
+}
+
 .hero {
   background-color: var(--BG1-color);
-  min-height: 200px;
-  text-align: center;
-  padding: 200px 20px;
 }
+
 .hero-title {
   color: var(--primary-color);
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--primary-color);
   text-align: center;
   font-family: Roboto;
   font-size: 44px;
@@ -87,7 +96,6 @@ body {
   min-width: 216px;
   height: 50px;
   padding: 0 32px;
-  color: var(--secondary-color);
   border-radius: 4px;
   background: var(--secondary-color);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -194,14 +202,11 @@ body {
 
 .footer {
   background-color: var(--BG1-color);
-  min-height: 200px;
-  text-align: center;
-  padding: 25px 10px;
 }
 
 .footer-logo {
   color: var(--primary-color);
-  font-family: Raleway;
+  font-family: Roboto;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -229,5 +234,24 @@ body {
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.42px;
+  text-decoration: none;
+}
+
+.footer-item {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.footer-item:hover {
+  color: var(--secondary-color);
+}
+
+.footer-logo {
+  font-family: Roboto;
+  color: var(--primary-color);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.78px;
   text-decoration: none;
 }
