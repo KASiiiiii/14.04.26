@@ -13,7 +13,7 @@ body {
 }
 
 .header-logo {
-  font-family: Roboto;
+  font-family: Raleway;
   color: var(--logo-color);
   font-size: 26px;
   font-weight: 700;
@@ -33,7 +33,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.28px;
   text-decoration: none;
-  color: var(--title-color);
   font-family: Roboto;
 }
 
@@ -64,12 +63,23 @@ body {
   text-decoration: none;
 }
 
-.header-item {
+.header-itemm {
+  font-family: Roboto;
   color: var(--title-color);
   text-decoration: none;
 }
 
-.header-item:hover {
+.header-itemm:hover {
+  color: var(--secondary-color);
+}
+
+.header-itemp {
+  font-family: Roboto;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.header-itemp:hover {
   color: var(--secondary-color);
 }
 
@@ -226,28 +236,42 @@ body {
   text-decoration: none;
 }
 
-.footer-link {
-  color: var(--text-color);
-  font-family: Roboto;
+.footer-map:hover {
+  color: var(--secondary-color);
+}
+
+.footer-mail {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.71;
+  line-height: 1.71px;
   letter-spacing: 0.42px;
+  font-family: Roboto;
+  color: var(--text-color);
   text-decoration: none;
 }
 
-.footer-item {
-  color: var(--primary-color);
+.footer-mail:hover {
+  color: var(--secondary-color);
+}
+
+.footer-phone {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71px;
+  letter-spacing: 0.42px;
+  font-family: Roboto;
+  color: var(--text-color);
   text-decoration: none;
 }
 
-.footer-item:hover {
+.footer-phone:hover {
   color: var(--secondary-color);
 }
 
 .footer-logo {
-  font-family: Roboto;
+  font-family: Raleway;
   color: var(--primary-color);
   font-size: 26px;
   font-weight: 700;
