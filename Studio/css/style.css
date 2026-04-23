@@ -155,15 +155,24 @@ body {
   background-color: var(--BG2-color);
   min-height: 200px;
   text-align: center;
-  padding: 200px 20px;
+  padding: 92px 20px;
 }
 
 .team-list {
   background-color: var(--primary-color);
-  min-height: 200px;
-  min-width: 100px;
+  min-height: 150px;
+  max-width: 300px;
   text-align: center;
-  padding: 0px 20px;
+  padding: 30px 0px;
+  margin: 100px;
+}
+
+.team-img {
+  display: block;
+  margin: 0;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
 }
 
 .team-title {
