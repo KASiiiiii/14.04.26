@@ -217,7 +217,7 @@ body {
 
 .footer-logo {
   display: inline-block;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   color: var(--secondary-color);
   font-size: 26px;
   font-weight: 700;
