@@ -24,6 +24,9 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  position: fixed;
+  width: 100%;
+  background: var(--primary-color);
 }
 
 .header-wrap {
@@ -278,3 +281,4 @@ body {
 .footer-phone:hover {
   color: var(--secondary-color);
 }
+

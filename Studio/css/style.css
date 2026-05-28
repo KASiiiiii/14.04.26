@@ -8,6 +8,10 @@
   --BG2-color: #f5f4fa;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -21,6 +25,9 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  position: fixed;
+  width: 100%;
+  background: var(--primary-color);
 }
 
 .header-wrap {
@@ -123,6 +130,8 @@ body {
 }
 
 .hero-title {
+  position: sticky;
+  top: 0;
   color: var(--primary-color);
   display: flex;
   justify-content: center;
@@ -154,6 +163,7 @@ body {
   letter-spacing: 0.96px;
   border: none;
 }
+
 
 /* info */
 
@@ -351,4 +361,23 @@ body {
 
 .footer-phone:hover {
   color: var(--secondary-color);
+}
+
+.scroll {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  transform: rotate(-90deg);
+}
+
+.scroll-icon {
+  width: 20px;
+  height: 20px;
 }
