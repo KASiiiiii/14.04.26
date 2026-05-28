@@ -130,8 +130,6 @@ body {
 }
 
 .hero-title {
-  position: sticky;
-  top: 0;
   color: var(--primary-color);
   display: flex;
   justify-content: center;
