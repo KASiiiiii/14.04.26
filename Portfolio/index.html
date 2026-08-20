@@ -683,6 +683,71 @@
       </div>
     </footer>
 
+    <!-- MODAL -->
+    <div class="modal-backdrop" aria-hidden="true">
+      <div class="modal">
+        <button
+          class="modal-close"
+          type="button"
+        >
+          <span><img src="../Studio/img/close_40px.png" alt=""></span>
+        </button>
+
+        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+
+        <form class="modal-form">
+          <label class="modal-field">
+            <span class="modal-label">Ім'я</span>
+
+            <span class="modal-input-wrap"><img class="modal-icon" src="./img/person-black-18dp.png" alt="">
+              <input class="modal-input" type="text" name="name" required />
+            </span>
+          </label>
+
+          <label class="modal-field">
+            <span class="modal-label">Телефон</span>
+
+            <span class="modal-input-wrap"><img class="modal-icon" src="./img/phone-black-18dp.png" alt="">
+
+              <input class="modal-input" type="tel" name="phone" required />
+            </span>
+          </label>
+
+          <label class="modal-field">
+            <span class="modal-label">Пошта</span>
+
+            <span class="modal-input-wrap"><img class="modal-icon" src="./img/Vector.png" alt="">
+
+              <input class="modal-input" type="email" name="email" required />
+            </span>
+          </label>
+
+          <label class="modal-field">
+            <span class="modal-label">Коментар</span>
+
+            <textarea
+              class="modal-textarea"
+              name="comment"
+              placeholder="Введіть текст"
+            ></textarea>
+          </label>
+
+          <label class="modal-checkbox">
+            <input type="checkbox" required />
+
+            <span class="modal-checkbox-custom"></span>
+
+            <span class="modal-checkbox-text">
+              Погоджуюся з розсилкою і приймаю
+              <a href="#">Умови договору</a>
+            </span>
+          </label>
+
+          <button class="modal-submit" type="submit">Відправити</button>
+        </form>
+      </div>
+    </div>
+
     <script
       type="module"
       src="./mobile.js"
